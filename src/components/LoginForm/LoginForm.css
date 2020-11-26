@@ -1,0 +1,76 @@
+.login-container {
+  min-width: 450px;
+  min-height: 400px;
+  display: flex;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  flex-direction: column;
+  -moz-flex-direction: column;
+  align-items: center;
+  -ms-align-items: center;
+  background-color: #fafafa;
+  border-radius: 3px; }
+  @media (max-width: 540px) {
+    .login-container {
+      min-width: 80%; } }
+  .login-container--heading {
+    width: 100%;
+    padding: 10px 0;
+    background-color: rgba(101, 56, 113, 0.95);
+    border-top-left-radius: inherit;
+    border-top-right-radius: inherit;
+    border: 1px solid #805888;
+    -ms-box-shadow: 0px -5px 19px 2px rgba(0, 0, 0, 0.15) inset;
+    box-shadow: inset 0px -5px 19px 2px rgba(0, 0, 0, 0.15); }
+    .login-container--heading h4 {
+      color: #fafafa;
+      font-size: 20px;
+      padding-left: 30px;
+      text-shadow: 1px 1px black; }
+  .login-container--input {
+    width: 80%;
+    position: relative;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: column; }
+    .login-container--input-user {
+      max-width: 20px;
+      position: absolute;
+      right: 20px;
+      top: 53px; }
+    .login-container--input-lock {
+      max-width: 20px;
+      position: absolute;
+      right: 20px;
+      top: 143px; }
+    .login-container--input input {
+      width: 100%;
+      box-sizing: border-box;
+      padding: 20px 0 20px 20px;
+      margin-top: 35px;
+      border-radius: 3px;
+      border: 1px solid #e6e6e6;
+      background-color: #f4f4f4;
+      font-family: "Helvetica Neue";
+      font-weight: bold; }
+      .login-container--input input::placeholder {
+        color: #b0b0b0; }
+    .login-container--input--button {
+      box-sizing: border-box;
+      -ms-align-self: flex-start;
+      align-self: flex-start;
+      margin-top: 35px; }
+      .login-container--input--button button {
+        padding: 15px 30px;
+        color: #fafafa;
+        background-color: rgba(101, 56, 113, 0.95);
+        font-weight: bold;
+        text-shadow: 1px 1px black;
+        border-radius: 3px;
+        -ms-box-shadow: 0px -5px 19px -4px rgba(0, 0, 0, 0.15) inset;
+        box-shadow: inset 0px -5px 19px -4px rgba(0, 0, 0, 0.15);
+        border: none;
+        cursor: pointer; }
+        .login-container--input--button button:hover {
+          opacity: 0.8; }
